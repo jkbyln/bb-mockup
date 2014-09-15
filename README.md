@@ -5,7 +5,7 @@ mocking up the mockup.
 
 ## Progress
 
-[-] Layout Styling
-[ ] Presentational Markup
-[ ] Fallbacks
-[ ] JS Functionality
+- [-] Layout Styling
+- [ ] Presentational Markup
+- [ ] Fallbacks
+- [ ] JS Functionality
