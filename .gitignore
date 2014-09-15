@@ -1,0 +1,9 @@
+*.TMP
+*.css
+
+.DS_Store
+Thumbs.db
+sftp-config.json
+
+node_modules/
+bower_componants/
