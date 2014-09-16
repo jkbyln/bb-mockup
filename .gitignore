@@ -1,11 +1,11 @@
 *.TMP
 *.css
 *.map
+*.lock
 
 .DS_Store
 Thumbs.db
 sftp-config.json
-Gemfile.lock
 
 node_modules/
 bower_componants/
