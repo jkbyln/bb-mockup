@@ -1,5 +1,6 @@
 *.TMP
 *.css
+*.map
 
 .DS_Store
 Thumbs.db
