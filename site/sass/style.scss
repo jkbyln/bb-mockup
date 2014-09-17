@@ -12,10 +12,46 @@
 
 // Containers
 
-body {
+.container {
   @include container(80em);
+  padding: 0 .5em;
 }
 
-nav {
-  @include span( 3 of 4 );
+.site-header {
+  background: #eee;
+  height: 20em;
+}
+
+
+// Modules
+
+.nav-reset {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin-right: -5px;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.main-nav {
+  border-top: 1px solid #303030;
+  border-bottom: 1px solid #303030;
+  text-align: center;
+
+  a {
+    padding: 1em;
+    color: #fff;
+    background: #aeaeae;
+
+    &:hover {
+      background: #eee;
+    }
+  }
 }

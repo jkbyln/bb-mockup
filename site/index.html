@@ -9,23 +9,22 @@
 <body>
   <header class="site-header">
     <div class="container">
-
-      <!-- SVG Illustrations -->
       <div class="header-graphic">
-      
+        <!-- SVG Illustrations -->
       </div>
     </div>
   </header>
 
   <!-- Sticky Nav -->
-  <div class="sticky-nav">
+  <div id="js-sticky-nav" class="sticky-nav">
     <nav class="main-nav">
-      <ul class="nav-reset">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <!-- <li><a href="#">Media</a></li> -->
-      </ul>
+      <div class="container">
+        <ul class="nav-reset">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
     </nav>
   </div>
   <main class="main-content">
@@ -44,5 +43,8 @@
       
     </div>
   </footer>
+  <script src="js/vendor/jquery.min.js"></script>
+  <script src="js/plugins/sticky-nav.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

@@ -14,7 +14,8 @@ var gulp         = require('gulp'),
 
 var paths = {
   sass: ['./site/sass/**/*.scss'],
-  pages: ['./site/*.html']
+  html: ['./site/*.html'],
+  js: ['./site/js/**/*.js']
 };
 
 
@@ -78,5 +79,6 @@ gulp.task('sass', function () {
 
 gulp.task('default', ['sass', 'browser-sync'], function () {
   gulp.watch( paths.sass, [ 'sass' ]);
-  gulp.watch( paths.pages, [ 'reload' ]);
+  gulp.watch( paths.html, [ 'reload' ]);
+  gulp.watch( paths.js, ['reload'] );
 });
