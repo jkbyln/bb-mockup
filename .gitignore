@@ -8,5 +8,5 @@ Thumbs.db
 sftp-config.json
 
 node_modules/
-bower_componants/
+bower_components/
 .sass-cache/
